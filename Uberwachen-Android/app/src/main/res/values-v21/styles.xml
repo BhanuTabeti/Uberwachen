@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowReturnTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <style name="AppTheme.Drawer">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+	
+	<style name="AppTheme.Tab" />
+	
+	<style name="AppTheme.MainScreen" />
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+
+        <!-- toolbar -->
+        <item name="colorPrimary">@color/bpBlue</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="android:textColorPrimary">@color/textBarColor</item>
+
+        <!-- colors -->
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="android:textColorHint">@color/textColorSecondary</item>
+        <item name="colorAccent">@color/bpBlue_focused</item>
+        <item name="colorControlHighlight">@color/primaryDark</item>
+
+        <!-- toolbar styles -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeStyle">@style/ActionModeStyle</item>
+        <item name="actionMenuTextColor">@color/textBarColor</item>
+        <item name="android:navigationBarColor">@android:color/holo_blue_dark</item>
+        <item name="android:colorForeground">@color/bpBlue_focused</item>
+    </style>
+
+</resources>

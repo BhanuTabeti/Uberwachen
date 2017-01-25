@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">Uberwachen</string>
+
+    <!-- Activity Titles -->
+    <string formatted="false" name="labInventoryActivity">Lab Inventory</string>
+    <string formatted="false" name="resistorsActivity">Resistors</string>
+    <string formatted="false" name="iCsMenuItem1Activity">IC\'s</string>
+    <string formatted="false" name="capacitorsInductorsActivity">Capacitors - Inductors</string>
+    <string formatted="false" name="devlopmentBoardsActivity">Devlopment Boards</string>
+    <string formatted="false" name="miscellanousActivity">Miscellanous</string>
+    <string formatted="false" name="busScheduleActivity">Bus Schedule</string>
+    <string formatted="false" name="uberwachenMainActivity">Uberwachen</string>
+	
+	<!-- Navigation Titles -->
+    <string name="mainmenu_entry0">Home</string>
+    <string name="mainmenu_entry1">Lab Inventory</string>
+    <string name="mainmenu_entry2">Bus Schedule</string>
+</resources>
+

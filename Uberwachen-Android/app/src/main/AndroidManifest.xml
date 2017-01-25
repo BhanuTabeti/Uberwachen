@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.mobileappbuilder.pkg20170123065314" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MyApplication">
+
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.HomeActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.LabInventoryActivity"
+            android:label="@string/labInventoryActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.ResistorsActivity"
+            android:label="@string/resistorsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.ResistorsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.ICsMenuItem1Activity"
+            android:label="@string/iCsMenuItem1Activity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.ICsMenuItem1DetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.CapacitorsInductorsActivity"
+            android:label="@string/capacitorsInductorsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.CapacitorsInductorsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.DevlopmentBoardsActivity"
+            android:label="@string/devlopmentBoardsActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.DevlopmentBoardsDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.MiscellanousActivity"
+            android:label="@string/miscellanousActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.MiscellanousDetailActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.BusScheduleActivity"
+            android:label="@string/busScheduleActivity"
+        />
+        <activity android:name="com.ibm.mobileappbuilder.pkg20170123065314.ui.UberwachenMainActivity"
+            android:label="@string/uberwachenMainActivity"
+            android:theme="@style/AppTheme.Drawer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
