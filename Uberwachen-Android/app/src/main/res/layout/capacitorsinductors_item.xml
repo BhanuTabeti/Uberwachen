@@ -5,8 +5,9 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:padding="8dp"
-    android:background="@drawable/list_item_activated_bg"
->
+
+
+    >
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
